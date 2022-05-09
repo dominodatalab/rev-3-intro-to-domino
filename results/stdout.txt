@@ -1,0 +1,54 @@
+[W 2022-05-04 12:58:20.908 ServerApp] notebook_dir is deprecated, use root_dir
+[I 2022-05-04 12:58:20.987 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2022-05-04 12:58:20.987 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[W 2022-05-04 12:58:20.991 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-04 12:58:20.998 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-05-04 12:58:20.998 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2022-05-04 12:58:21.010 ServerApp] Writing Jupyter server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2022-05-04 12:58:21.202 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-04 12:58:21.202 ServerApp] nbdime | extension was successfully linked.
+[W 2022-05-04 12:58:21.241 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2022-05-04 12:58:21.247 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-04 12:58:21.247 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2022-05-04 12:58:21.257 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2022-05-04 12:58:21.258 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-04 12:58:21.258 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2022-05-04 12:58:21.262 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-04 12:58:21.270 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2022-05-04 12:58:21.322 ServerApp] nbdime | extension was successfully loaded.
+[I 2022-05-04 12:58:21.323 ServerApp] Serving notebooks from local directory: /
+[I 2022-05-04 12:58:21.323 ServerApp] Jupyter Server 1.13.5 is running at:
+[I 2022-05-04 12:58:21.323 ServerApp] http://run-6272784bfd3c4446ef11063e-jkfgk:8888/melanie_veale/Intro-To-Domino/notebookSession/6272784bfd3c4446ef11063e/lab/tree/mnt
+[I 2022-05-04 12:58:21.323 ServerApp]  or http://127.0.0.1:8888/melanie_veale/Intro-To-Domino/notebookSession/6272784bfd3c4446ef11063e/lab/tree/mnt
+[I 2022-05-04 12:58:21.323 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-05-04 12:58:22.765 ServerApp] 302 GET /melanie_veale/Intro-To-Domino/notebookSession/6272784bfd3c4446ef11063e/ (100.96.18.83) 0.75ms
+[I 2022-05-04 12:58:22.890 ServerApp] 302 GET /melanie_veale/Intro-To-Domino/notebookSession/6272784bfd3c4446ef11063e/ (100.96.18.83) 0.47ms
+[I 2022-05-04 12:58:23.124 ServerApp] 302 GET /melanie_veale/Intro-To-Domino/notebookSession/6272784bfd3c4446ef11063e/ (100.96.18.83) 0.41ms
+[I 2022-05-04 12:58:27.622 LabApp] Build is up to date
+[I 2022-05-04 12:58:33.016 ServerApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 2022-05-04 12:58:33.018 ServerApp] Notebook mnt/Forecast_Power_Generation.ipynb is not trusted
+[I 2022-05-04 12:58:35.029 ServerApp] Kernel started: c2e0135b-cf01-4ea1-9830-e22737d93348
+[I 2022-05-04 12:58:35.827 ServerApp] Starting buffering for c2e0135b-cf01-4ea1-9830-e22737d93348:ae50066d-b349-4a9f-a465-b4c6a61c6645
+[I 2022-05-04 13:04:35.156 ServerApp] Saving file at /mnt/Forecast_Power_Generation.ipynb
+Initial log joint probability = -194.555
+    Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes 
+      99       5132.05      0.108837       558.204           1           1      121   
+    Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes 
+     165        5169.9   0.000463487        156.27   4.044e-06       0.001      233  LS failed, Hessian reset 
+     199       5188.35     0.0031364       106.069      0.3425      0.3425      271   
+    Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes 
+     231       5193.42   0.000307463       108.544   3.061e-06       0.001      349  LS failed, Hessian reset 
+     299       5205.68     0.0141144       194.121     0.05764           1      434   
+    Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes 
+     390       5212.37   0.000497811       98.5146   1.474e-06       0.001      584  LS failed, Hessian reset 
+     399       5212.66    0.00192691       105.176           1           1      594   
+    Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes 
+     435       5213.01   0.000355355       125.558   4.466e-06       0.001      680  LS failed, Hessian reset 
+     499       5213.22   0.000245428       83.0914      0.6974      0.6974      767   
+    Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes 
+     505       5213.26   0.000246923       98.5564   2.089e-06       0.001      822  LS failed, Hessian reset 
+     544       5213.29   4.64216e-07       60.8905      0.3495           1      875   
+Optimization terminated normally: 
+  Convergence detected: relative gradient magnitude is below tolerance
+[I 2022-05-04 13:06:35.663 ServerApp] Saving file at /mnt/Forecast_Power_Generation.ipynb
+[I 2022-05-04 13:07:28.397 ServerApp] Saving file at /mnt/Forecast_Power_Generation.ipynb
